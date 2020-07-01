@@ -128,17 +128,11 @@ p {
     font-size: 200%;
 }
 
-.img-container img {
-    width: 100%;
-    height: 100%;
-}
-
 /*=====STYLING  [ !@#$%^&*()_+{}|":<>? ]=====*/
 /*=====START header SECTION=====*/
 #header {
     background: url(sources/css/css-img/header-bg.png) no-repeat center/cover;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0px;
 }
 
 #header .header-wrapper {
@@ -266,6 +260,7 @@ p {
 
 /*=====END latest SECTION=====*/
 /*=====START testimonial SECTION=====*/
+
 #testimonial {
     background: url(sources/css/css-img/header-bg.png) no-repeat center / cover;
     text-align: center;
