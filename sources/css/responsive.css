@@ -43,35 +43,28 @@
         }
 }
 
-/*=====480 px=====*/
-@media screen and (max-width: 480.98px) {
+/*=====575 px=====*/
+@media screen and (max-width: 575.98px) {
         body {
                 font-size: 7px;
         }
 
         #testimonial .message {
-                padding: 50px 80px;
-        }
-}
-
-/*=====375 px=====*/
-@media screen and (max-width:375.98px) {
-        #testimonial .message {
                 padding: 50px;
         }
 }
 
-/*=====332 px=====*/
-@media screen and (max-width:332.98px) {
-        #testimonial .message {
-                padding: 50px;
+/*=====480 px=====*/
+@media screen and (max-width: 480.98px) {
+        body {
+                font-size: 7px;
         }
 }
 
 /*=====320 px=====*/
 @media screen and (max-width:320.98px) {
         #testimonial .message {
-                padding: 30px;
+                padding: 10px;
         }
 }
 
