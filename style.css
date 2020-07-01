@@ -1,0 +1,311 @@
+/*====================
+THEME NAME:PERSONAL PORTFOLIO
+VERSION: 1.0
+DESCRIPTION: AN AWESOME THEME TEMPLATE.
+THEME URL:
+AUTHOR: ABDUR RAHMAN
+AUTHOR URL: 
+SUPPORT: 
+====================*/
+/*=====BASIC STYLE!=====*/
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.clear {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+:focus {
+    outline: 0;
+}
+
+/*=====REUSABLE COMPONENT!=====*/
+
+/* {
+font-family: 'Galada', cursive;
+font-family: 'Teko', sans-serif;
+} */
+
+/* {
+    color: #0AF3C5;
+    color: #3F8DFC;
+    color: #3E8DFB;
+    color: #ddd;
+    color: #878787;
+    color: #000;
+    color: orange;
+    color: orangered;
+} */
+
+body {
+    font-size: 10px;
+    font-family: 'Teko', sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-rendering: optimizeLegibility;
+}
+
+#container {
+    width: 1360px;
+    margin: auto;
+}
+
+.tie {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.btn {
+    padding: 15px 0;
+}
+
+.btn a {
+    font-size: 200%;
+    text-transform: uppercase;
+    color: #fff;
+    background: orangered;
+    padding: 5px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+
+.btn a:hover {
+    background: linear-gradient(to right, #3F8DFC, #0AF3C5);
+    color: #000;
+}
+
+h2 {
+    font-size: 500%;
+}
+
+p {
+    font-size: 200%;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+/*=====STYLING  [ !@#$%^&*()_+{}|":<>? ]=====*/
+/*=====START header SECTION=====*/
+#header {
+    background: url(sources/css/css-img/header-bg.png) no-repeat center/cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#header .header-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#header .header-item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .header-item1 h1 {
+    font-size: 500%;
+    color: orangered;
+}
+
+#header .header-item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header .header-item2 img{
+    width: 100%;
+    height: 100%;
+}
+/*=====END header SECTION=====*/
+/*=====START biography SECTION=====*/
+#biography {
+    background: url(sources/css/css-img/biography-bg.png) no-repeat center / cover;
+    padding: 100px 0px;
+}
+#biography .biography-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#biography .biography-item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#biography .biography-item1 img{
+    width: 100%;
+    height: 100%;
+}
+#biography .biography-item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*=====END biography SECTION=====*/
+/*=====START service SECTION=====*/
+#service {
+    background: linear-gradient(rgba(0, 0, 0, 0.867), rgba(0, 0, 0, 0.837)), url(sources/css/css-img/services.jpg) no-repeat center / cover;
+    background-attachment: fixed;
+    padding: 100px 0px;
+}
+#service .service-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0px 50px;
+}
+#service h2 {
+    text-align: center;
+    color: #ddd;
+}
+
+#service hr {
+    width: 80px;
+    margin: auto;
+    margin-bottom: 50px;
+    color: orangered;
+}
+
+#service .border-color {
+    border-left: 2px solid;
+    border-image: linear-gradient(#3E8DFB, #0AF3C5);
+    border-image-slice: 1;
+    padding: 20px;
+    background: #3333;
+}
+
+#service .service-item1 h2,
+#service .service-item2 h2 {
+    color: orange;
+}
+
+#service .service-item1 p,
+#service .service-item2 p {
+    color: #ddd;
+}
+
+/*=====END service SECTION=====*/
+/*=====START latest SECTION=====*/
+#latest-work {
+    background: url(sources/css/css-img/latest-work-bg.png) no-repeat center / cover;
+    padding: 100px 0px;
+}
+
+#latest-work h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#latest-work .latest-work-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0 30px;
+}
+
+#latest-work .latest-work-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+/*=====END latest SECTION=====*/
+/*=====START testimonial SECTION=====*/
+#testimonial {
+    background: url(sources/css/css-img/header-bg.png) no-repeat center / cover;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#testimonial h5 {
+    font-size: 200%;
+    font-family: 'Galada', cursive;
+}
+
+#testimonial span {
+    font-size: 120%;
+    font-weight: 500;
+    color: #878787;
+}
+
+#testimonial p {
+    font-size: 220%;
+    padding: 20px 0;
+}
+
+#testimonial .message {
+    background: orangered;
+    display: inline-block;
+    padding: 50px 130px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#testimonial .message h6 {
+    font-size: 200%;
+    color: #ddd;
+}
+
+#testimonial .message h4 {
+    font-size: 230%;
+    color: #ddd;
+}
+
+/*=====END testimonial SECTION=====*/
+footer {
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 150%;
+    color: #878787;
+}
