@@ -54,10 +54,24 @@
         }
 }
 
+/*=====375 px=====*/
+@media screen and (max-width:375.98px) {
+        #testimonial .message {
+                padding: 50px;
+        }
+}
+
 /*=====332 px=====*/
 @media screen and (max-width:332.98px) {
         #testimonial .message {
                 padding: 50px;
+        }
+}
+
+/*=====320 px=====*/
+@media screen and (max-width:320.98px) {
+        #testimonial .message {
+                padding: 30px;
         }
 }
 
